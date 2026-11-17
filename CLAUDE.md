@@ -9,6 +9,14 @@ Two people, who often disagree. Ashar is sceptical of AI-generated ideas: the id
 - **Mark something as agreed** only when both have said so.
 - **Bring options and questions, attributed to whoever raised them,** rather than your own recommendations. Clearly label any idea of your own as yours.
 
+## Shared sessions
+
+A session may have both B and A in it, typing through one keyboard or a shared link.
+- **Every human message starts with its speaker:** `B:`, `A:`, or `B+A:` if both are speaking. If a message has no prefix, ask who it is from before treating it as an answer.
+- **When grilling, put each question to both** and record each person's answer separately. A ticket resolves only once both have answered. If they disagree, either record the disagreement as the outcome or leave the ticket open. Your job is to make the split clear; the call is theirs.
+- **Attribute every position** with (B) or (A) in ticket answers and ADRs.
+- **Resolve one ticket per session.** When it's resolved, end the session and start a fresh one for the next ticket. This keeps shared sessions short.
+
 ## Where things go
 
 Create a file or folder from this list if it doesn't exist yet. Keep to this layout rather than inventing new top-level folders.
