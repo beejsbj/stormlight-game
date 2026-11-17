@@ -12,7 +12,7 @@ Two people, who often disagree. Ashar is sceptical of AI-generated ideas: the id
 ## Where things go
 
 Create a file or folder from this list if it doesn't exist yet. Keep to this layout rather than inventing new top-level folders.
-- **Decisions** → `docs/decisions.md`, newest first. Each entry gives the date, the decision, who decided it (B, A, or both), why, and a source link.
+- **Decisions** → resolved in GitHub issues (Wayfinder tickets), which are the record. Write one up as an ADR in `docs/adr/` only if it is hard to reverse, surprising without context, and the result of a real trade-off (see the `domain-modeling` skill). Every ADR names who decided it (B, A, or both) and links its source.
 - **Design bible** → `docs/bible/`, one file per topic, e.g. `characters.md`, `combat.md`, `art-direction.md`.
 - **Raw inputs** (transcripts, research notes) → `docs/sources/`, named with the date first: `YYYY-MM-DD-topic.md`.
 - **Images, renders, models** → `assets/`, grouped by subject.
@@ -21,7 +21,7 @@ Create a file or folder from this list if it doesn't exist yet. Keep to this lay
 
 ## Lore
 
-Stormlight lore is checked against the books, with coppermind.net for lookups. When a call or an idea gets the lore wrong, record the correction next to it instead of silently fixing it. Intentional departures from the books are allowed, but list them in `docs/decisions.md`.
+Stormlight lore is checked against the books, with coppermind.net for lookups. When a call or an idea gets the lore wrong, record the correction next to it instead of silently fixing it. Intentional departures from the books are allowed, but record each one as an ADR.
 
 ## Agent skills
 
@@ -33,4 +33,4 @@ GitHub Issues on this repo, via `gh`. Wayfinder maps are issues labelled `wayfin
 
 ### Domain docs
 
-Single-context: `GLOSSARY.md` at the root, and decisions in `docs/decisions.md` rather than `docs/adr/`. See `docs/agents/domain.md`.
+Single-context: `GLOSSARY.md` at the root and ADRs in `docs/adr/`. See `docs/agents/domain.md`.
