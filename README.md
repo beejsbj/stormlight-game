@@ -9,7 +9,7 @@ This repo is our **workspace**: the design bible, decisions, sources and assets.
 | Path | What goes there |
 |---|---|
 | `docs/brief.md` | Sources, inspirations and positions so far. Start here. |
-| `docs/decisions.md` | Decisions we've made, newest first, each with who and why. |
+| `docs/adr/` | The big decisions, one file each: those that are hard to reverse, surprising, or a real trade-off. Everyday decisions live in GitHub issues. |
 | `docs/bible/` | The design bible: world, characters, mechanics, art direction. |
 | `docs/sources/` | Raw inputs: call transcripts, reference notes. |
 | `assets/` | Concept art, renders, reference images, models. |
