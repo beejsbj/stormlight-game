@@ -2,7 +2,7 @@
 
 A fan-made, story-led party RPG adapting Brandon Sanderson's *The Stormlight Archive*. Made by Burooj and Ashar, with AI help. It's unlicensed fan work, not for sale.
 
-This repo is our **workspace**: the design bible, decisions, sources and assets. The game itself will live in a separate repo once there's an engine prototype.
+This repo is our **workspace**: the design bible, sources, assets and ADRs. Everyday decisions live in GitHub issues. The game itself will live in a separate repo once there's an engine prototype.
 
 ## Layout
 
